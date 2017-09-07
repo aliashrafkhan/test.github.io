@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i');
+body {
+	font-family: 'Muli', sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.author-img {
+    position: relative;
+}
+
+body, h2 {
+    font-weight: 300;
+}
+
+.section-title {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 50px;
+}
+.contact-us-form {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+p.form-element {
+    position: relative;
+}
+
+p.form-element label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 5px;
+}
+p.form-element text{
+    padding: 50px;
+}
+
+.contact-us-form input[type=text] {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 100%;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    transition: 0.2s;
+}
+
+.contact-us-form input[type=email] {
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 100%;
+    font-size: 15px;
+    padding-top: 33px;
+    padding-bottom: 18px;
+    transition: .3s;
+}
+
+.contact-us-form textarea {
+    border: 1px solid #ddd;
+    padding: 26px;
+    width: 100%;
+    font-size: 15px;
+    padding-top: 33px;
+    padding-bottom: 18px;
+    height: 150px;
+    transition: .4s;
+
+}
+
+.input[type=submit] {
+    padding: 10px 10px;
+    color: #FE4;
+    float: left;
+}
+
+p.small-text {
+    font-size: 14px;
+    padding: 15px 0px;
+    margin: 0;
+}
+
+input[type="submit"] {
+    color: #fff;
+    background: black;
+    padding: 15px 15px;
+    float: right;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-us-form input[type=text]:focus {
+    background-color: #ddd;
+}
+
+.contact-us-form input[type=email]:focus {
+    background-color: #ddd;
+}
+.contact-us-form textarea:focus {
+    background-color: #ddd;
+}
