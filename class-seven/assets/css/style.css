@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i');
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+a: hover { text-decoration: none }
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.section-padding{
+    padding: 80px 0;
+}
+
+.newsletter-bg {background-image: url(../img/bg-1.jpg);}
+.newsletter-bg h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.newsletter-bg {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 180px;
+}
+
+.newsletter-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #333;
+    z-index: -1;
+    opacity: .3;
+}
+
+.newsletter-form input[type=email] {
+    background: #333;
+    border: 1px solid aqua;
+    opacity: .6;
+    padding: 12px 20px;
+    width: 75%;
+    border-radius: 50px;
+}
+
+.newsletter-form input[type=submit] {
+    color: #fff;
+    background-color: #2AB89D;
+    border: none;
+    padding: 13px 20px;
+    width: 20%;
+    border-radius: 50px;
+}
+
+.newsletter-form form {
+    margin-bottom: 14px;
+    font-style: normal;
+}
+
+.newsletter-form {
+    font-style: italic;
+}
+
+.bordered-boxes {
+    overflow: hidden;
+    border-right: 1px solid #333333;
+    margin-top: -160px;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+}
+
+.single-bordered-box {
+    float: left;
+    width: 50%;
+    border-top: 1px solid #333333;
+    border-left: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    padding: 50px 80px;
+    text-align: center;
+    min-height: 239px;
+}
+
+.single-bordered-box h4 {
+    text-transform: uppercase;
+}
+
+.single-bordered-box h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.single-testimonial-box {
+    font-style: italic;
+    line-height: 1.6;
+}
+
+p.author-name {
+    color: #242424;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+a.boxed-btn {
+    background: #333333;
+    color: #fff;
+    padding: 8px 27px;
+    display: inline-block;
+    border-radius: 50px;
+    margin-top: 16px;
+}
