@@ -1,0 +1,86 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+.section-padding{
+	padding: 80px 0;
+}
+.abosulate-bg-1:after{background-image: url(../img/bg-1.jpg);}
+.abosulate-bg-2:after{background-image: url(../img/bg2.jpg);}
+
+.section-padding {
+    position: relative;
+    z-index: 1;
+}
+
+.section-padding.abosulate-bg-1:after, .section-padding.abosulate-bg-2:after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 65%;
+    height: 100%;
+    content: '';
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+}
+
+.section-padding.abosulate-bg-2:after {
+    right: auto;
+    left: 0;
+}
+
+.boxed-content {
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 0 4px #ccc;
+    padding: 50px;
+}
+
+a.boxed-btn {
+    padding: 10px;
+    background: #ffce43;
+    display: inline-block;
+    color: #333;
+    margin-top: 10px;
+}
+
+.section-padding.abosulate-bg-1 {
+    margin: 50px 0;
+}
