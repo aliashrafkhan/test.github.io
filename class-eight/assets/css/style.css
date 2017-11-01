@@ -1,0 +1,155 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+.section-padding{
+	padding: 80px 0;
+}
+.product-bg-1{background-image: url(../img/man1.jpg);}
+.product-bg-2{background-image: url(../img/man2.jpg);}
+.product-bg-3{background-image: url(../img/man3.jpg);}
+.product-bg-4{background-image: url(../img/man4.jpg);}
+.product-bg-5{background-image: url(../img/man5.jpg);}
+
+.section-title h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.product-bg {
+    background-size: cover;
+    background-color: #ddd;
+    background-position: center top;
+    height: 330px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 20px;
+}
+
+.ticker {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: #333;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 12px;
+    right: 15px;
+    top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.ticker-green {
+    background: green;
+}
+
+.ticker-red {
+    background: red;
+}
+
+.product-bottom-hover {
+    position: absolute;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+    bottom: 30px;
+    background: #fff;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ddd;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.product-bottom-hover a {
+    display: block;
+    float: left;
+    width: 33.3333%;
+    border-left: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    text-align: center;
+    padding: 13px;
+    color: #333;
+}
+
+.product-bottom-hover a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.single-product-box {
+    text-align: center;
+}
+
+.single-product-box h4 {
+    font-size: 15px;
+    font-weight: 400;
+}
+p.product-price {
+    font-size: 110%;
+    font-weight: 700;
+    margin: 0;
+}
+
+.single-product-box:hover .product-bottom-hover {
+    opacity: 1;
+    visibility: visible;
+    bottom: 30px;
+}
+.product-carousel .owl-nav div {
+    background: #333;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color: #fff;
+    line-height: 28px;
+    font-size: 18px;
+    border-radius: 50%;
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    margin-top: -49px;
+    opacity: .5;
+}
+
+.product-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: -15px;
+}
