@@ -1,0 +1,175 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+.section-padding{
+	padding: 80px 0;
+}
+.slide-bg-1 {background-image: url(../img/bg1.jpg);}
+.slide-bg-2 {background-image: url(../img/bg2.jpg);}
+.slide-bg-3 {background-image: url(../img/bg3.jpg);}
+
+.boxed-btn, .welcome-area:after {
+background: #035a95; /* Old browsers */
+background: -moz-linear-gradient(left, #035a95 0%, #0497bc 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #035a95 0%,#0497bc 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #035a95 0%,#0497bc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#035a95', endColorstr='#0497bc',GradientType=1 ); /* IE6-9 */
+}
+.welcome-area {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 100px;
+}
+
+.welcome-area:after {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 65%;
+    height: 100%;
+}
+
+.logo a, .main-menu a {
+    color: #fff;
+}
+
+.logo {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 9px;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu li {
+    display: inline-block;
+    position: relative;
+}
+
+.main-menu li a {
+    display: block;
+    padding: 18px 17px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.header-right-content a {
+    color: #000;
+}
+
+.social-links {
+    padding: 20px;
+    margin-right: 50px;
+    border-left: 1px solid #e8e8e8;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.social-links a {
+    font-size: 14px;
+    display: inline-block;
+    padding: 0 4px;
+}
+
+.header-right-content {
+    padding-top: 20px;
+}
+
+.header-area {
+    padding: 30px 0;
+}
+
+.single-slide-item {
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-color: #000;
+    display: table;
+    width: 100%;
+}
+
+.slide-inner {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.slide-text {
+    padding: 130px;
+    color: #fff;
+    max-width: 700px;
+}
+
+.slide-text h4 {
+    margin-bottom: 9px;
+    color: #5fb7d0;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.slide-text h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.boxed-btn {
+    font-size: 12px;
+    color: #fff;
+    padding: 16px 40px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.homepage-slides .owl-nav div {
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 10px;
+    opacity: .5;
+}
