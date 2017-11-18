@@ -1,0 +1,116 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+.section-padding{
+	padding: 80px 0;
+}
+.features-menu {
+    margin: 0 0 100px;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.features-menu li {
+    display: inline-block;
+}
+
+.features-menu li a {
+    text-transform: uppercase;
+    display: block;
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 4px solid transparent;
+    margin: 0 20px;
+}
+.features-menu li.active a{
+    border-color: #ffce46;
+}
+
+.single-feature-item {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    display: table;
+}
+
+.feature-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 100%;
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/bg1.jpg);
+}
+
+.feature-text {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 550px;
+}
+
+.feature-text h4 {
+    font-size: 30px;
+    opacity: .5;
+}
+
+.feature-text h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.boxed-btn {
+    display: inline-block;
+    margin-top: 15px;
+    background: #ffce46;
+    color: #333;
+    padding: 12px 30px;
+    border-radius: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
