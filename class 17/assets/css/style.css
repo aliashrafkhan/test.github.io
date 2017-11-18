@@ -1,0 +1,118 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+.section-padding{
+	padding: 80px 0;
+}
+.section-title h2 {
+    position: relative;
+    z-index: 1;
+    font-size: 35px;
+    color: #333;
+}
+
+.section-title h2:before {
+    position: absolute;
+    left: -21px;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    content: '';
+    background: #FFCE42;
+}
+
+body {
+    font-size: 16px;
+    color: #737373;
+    line-height: 1.8;
+}
+
+.section-title {
+    margin-bottom: 40px;
+}
+
+.service-icon {
+    color: #FFCE42;
+    font-size: 50px;
+}
+
+.single-service-box h3 {
+    color: #FFCE42;
+}
+
+.single-service-box h2 {
+    color: #4555b9;
+}
+
+.single-service-box {
+    margin-bottom: 40px;
+}
+
+.bordered-box {
+    border: 7px solid #FFCE42;
+    padding: 40px;
+    margin-left: 30px;
+    margin-top: 100px;
+    margin-right: 100px;
+    position: relative;
+}
+
+.bordered-box-img {
+    margin-top: -140px;
+    margin-bottom: 40px;
+    margin-right: -140px;
+    width: 470px;
+    max-width: 140%;
+    max-height: 290%;
+}
+
+.bordered-box-readmorebtn {
+    position: absolute;
+    right: -100px;
+    transform: rotate(270deg);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    bottom: 46px;
+    color: #4555d9;
+}
+
+.bordered-box-readmorebtn i.fa {
+    margin-right: 6px;
+}
