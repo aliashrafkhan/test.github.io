@@ -1,0 +1,65 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+.section-padding{
+	padding: 80px 0;
+}
+.schedule th {
+    background-color: #f0f0f0;
+    font-weight: 400;
+}
+
+.schedule {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.schedule th, .schedule td {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.schedule h4 {
+    font-weight: 400;
+}
+
+.schedule th {}
