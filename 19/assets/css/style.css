@@ -1,0 +1,121 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+.section-padding{
+	padding: 80px 0;
+}
+.single-pricing-item {
+    box-shadow: 0 0 9px #ddd;
+    text-align: center;
+    padding: 30px;
+    border-top: 3px solid #38c695;
+    transition: .3s;
+}
+
+.priceng-price {
+    background: #38c695;
+    font-size: 16px;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin: 30px auto;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+p.priceng-price-text {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 22px;
+}
+
+.priceng-price:after {
+    position: absolute;
+    left: -6px;
+    top: -6px;
+    border: 3px solid #38c695;
+    content: "";
+    width: 110%;
+    height: 110%;
+    border-radius: 50%;
+}
+
+.priceng-content {
+    color: #646464;
+    font-size: 17px;
+}
+
+.bordered-btn, .boxed-btn {
+    display: inline-block;
+    border: 1px solid #38c695;
+    font-size: 16px;
+    color: #38c695;
+    padding: 13px 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.theme-2 .boxed-btn {
+    border-color: #fc5f45;
+    background-color: #fc5f45;
+}
+
+.boxed-btn {
+    background-color: #38c695;
+    color: #fff;
+}
+
+.single-pricing-item:hover {
+    transform: scale(1.1);
+}
+
+.single-pricing-item.theme-2 {
+    border-color: #fc5f45;
+}
+
+.theme-2 .priceng-price {
+    background-color: #fc5f45;
+}
+
+.theme-2 .priceng-price:after {
+    border-color: #fc5f45;
+}
