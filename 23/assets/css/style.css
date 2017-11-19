@@ -1,0 +1,103 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+.section-padding{
+	padding: 100px 0;
+}
+.mainmenu ul {
+    font-size: 16px;
+}
+
+.mainmenu li {
+    display: inline-block;
+}
+
+.mainmenu li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+}
+.mainmenu li {
+    position: relative;
+}
+
+.mainmenu li ul {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #000;
+    padding: 15px 0;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+    transform:skew(20deg)
+}
+
+.mainmenu li ul li {
+    display: block;
+}
+
+.mainmenu li ul li a {
+    color: #999;
+    padding: 10px 15px;
+}
+
+.mainmenu li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    transform:skew(0deg)
+}
+
+.mainmenu li:hover > a {
+    color: red;
+}
+
+.mainmenu li:hover li:hover > a {
+    background: red;
+    color: #fff;
+}
+
+.mainmenu.effect-2 li ul{
+    transform: skew(0deg);
+    margin-top: 20px;
+}
+.mainmenu.effect-2 li:hover ul{
+    transform: skew(0deg);
+    margin-top: 0px;
+}
