@@ -1,0 +1,95 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+.section-padding{
+    padding: 100px 0;
+}
+	
+.special-bg-section:before {
+    background-image: url(../img/bg1.jpg);
+}
+.special-bg-section {
+    background: #f3f3f3;
+    border: 1px solid #ddd;
+    position: relative;
+    padding-left: 55%;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.boxed-btn {
+    display: inline-block;
+    background: #3434AF;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.special-bg-section:before {
+    position: absolute;
+    left: 0;
+    top: -25%;
+    width: 50%;
+    content: '';
+    height: 150%;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+
+.special-bg-section:after {
+    content: "";
+    right: -40px;
+    bottom: -40px;
+    width: 48.5%;
+    height: 100%;
+    position: absolute;
+    border: 4px solid #3434af;
+    z-index: -1;
+}
+
+.boxed-btn:hover {
+    color: #3434af;
+    background: #2098d1;
+}
